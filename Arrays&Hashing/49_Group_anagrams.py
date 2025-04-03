@@ -55,6 +55,9 @@ class Solution:
             result[tuple(count)].append(s)
             # act : [cat]
         return list(result.values())
+    
+    # time complexity : O(m*n)
+    # space complexity : O(m*n)
       
     
             
